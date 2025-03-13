@@ -2,8 +2,13 @@
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
     "strict": true,
-    "types": ["@storybook/types"],
+    "types": ["@storybook/types", "vite/client"],
     "moduleResolution": "node",
-    "baseUrl": "."
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
   }
 }

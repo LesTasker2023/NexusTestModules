@@ -2066,7 +2066,7 @@
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-essentials@8.6.4":
+"@storybook/addon-essentials@^8.6.4":
   version "8.6.4"
   resolved "https://registry.yarnpkg.com/@storybook/addon-essentials/-/addon-essentials-8.6.4.tgz#92318482ef20ba2d3839aea02485d2dde4789872"
   integrity sha512-3pF0ZDl5EICqe0eOupPQq6PxeupwkLsfTWANuuJUYTJur82kvJd3Chb7P9vqw0A0QBx6106mL6PIyjrFJJMhLg==
@@ -2142,6 +2142,15 @@
   integrity sha512-LovyXG5VM0w7CovI/k56ZZyWCveQFVDl0m7WwetpmMh2mmFJ+uPQ35BBsgTvTfc8RHi+9Q3F58qP1MQSByXi9g==
   dependencies:
     "@storybook/csf-plugin" "8.4.7"
+    browser-assert "^1.2.1"
+    ts-dedent "^2.0.0"
+
+"@storybook/builder-vite@^8.6.4":
+  version "8.6.4"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-8.6.4.tgz#d0dac863c59547154b646eed63dfa82ee6b66d14"
+  integrity sha512-FuSP2GhWVVTt6NdX0UJHhPOqhu09X4apSk+KWUf3aITRIJg9gbPYtJDBmxv1vXQEgvfCDdYBYbeG1khiO/Ghfw==
+  dependencies:
+    "@storybook/csf-plugin" "8.6.4"
     browser-assert "^1.2.1"
     ts-dedent "^2.0.0"
 
