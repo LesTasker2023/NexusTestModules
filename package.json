@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@nuxt/content": "3.3.0",
@@ -27,8 +29,23 @@
   },
   "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
   "devDependencies": {
+    "@chromatic-com/storybook": "3.2.5",
     "@nuxtjs/storybook": "^8.3.3",
+    "@storybook/addon-essentials": "8.6.4",
+    "@storybook/addon-interactions": "8.6.4",
+    "@storybook/blocks": "8.6.4",
+    "@storybook/test": "8.6.4",
+    "@storybook/types": "^8.6.4",
     "@storybook/vue3": "^8.6.4",
-    "sass": "^1.85.1"
+    "@types/node": "^22.13.10",
+    "eslint-plugin-storybook": "^0.11.4",
+    "sass": "^1.85.1",
+    "storybook": "8.6.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended",
+      "plugin:storybook/recommended"
+    ]
   }
 }
